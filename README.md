@@ -2,9 +2,11 @@
 
 In this project, I will analyze demographics data for customers of a mail-order sales company in Germany, comparing it against demographics information for the general population. I will use unsupervised learning techniques to perform customer segmentation, identifying the parts of the population that best describe the core customer base of the company. Then, I will apply what I&#39;ve learned on a third dataset with demographics information for targets of a marketing campaign for the company and use a model to predict which individuals are most likely to convert into becoming customers for the company.
 
+
 **Project**  **Motivation:**
 
 To explore how we can use unsupervised and supervised machine learning techniques in a real-world application. This project is a capstone project for the Machine Learning Nano Degree by Udacity.
+
 
 **Files Included:**
 
@@ -13,6 +15,7 @@ To explore how we can use unsupervised and supervised machine learning technique
 - model\_utils.py: contains utility methods for the pytorch model
 - DIAS Attributes - Values 2017.xlsx: is a top-level list of attributes and descriptions, organized by informational category.
 - DIAS Information Levels - Attributes 2017.xlsx: is a detailed mapping of data values for each feature in alphabetical order.
+
 
 **Libraries used:**
 
@@ -30,15 +33,18 @@ The library imblearn must be installed by opening anaconda terminal and using th
 
 conda install -c conda-forge imbalanced-learn
 
+
 **Results Summary:**
 
 After training multiple machine learning models and comparing their results, Random Forest Classifier achieved the best results with ROC AUC score of 0.7.
+
 
 **Licenses and Acknowledgements:**
 
 The data for this project was provided by Arvato and cannot be shared publicly.
 
 Special thanks to the mentor Amit L for assisting with the project.
+
 
 **Resources:**
 
